@@ -20,7 +20,7 @@
 }
 
 .auth-link {
-    background-color: var(--button-bg);
+    background-color: blueviolet;
     padding: 8px 16px;
     border-radius: 8px;
     border: none;

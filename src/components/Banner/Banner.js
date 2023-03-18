@@ -1,6 +1,6 @@
 import React from 'react'
 import './Banner.css'
-import {db} from '../../Config/FirebaseConfig'
+import {db} from '../../Config/firebaseConfig'
 //need some functions from firestore
 import {collection, getDocs, query, orderBy, limit} from 'firebase/firestore'
 
