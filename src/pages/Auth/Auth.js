@@ -59,7 +59,6 @@ function Auth() {
                             required
                             />
                             <input type="password"
-                            type='password'
                             onChange={(e)=>setPassword(e.target.value)}
                             placeholder='Enter password'
                             required
