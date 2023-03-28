@@ -31,6 +31,7 @@
     background-size: cover;
     background-position: center;
     padding:0 0 10px 10px;
+    font-size: 10px;
 }
 .banner-info{
     /* background-color: var(--transparent-bg); */

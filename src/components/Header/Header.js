@@ -1,9 +1,9 @@
 import React from 'react'
 import './Header.css'
 import {Link} from 'react-router-dom'
-import {FaHome} from "react-icons/fa";
-import { auth } from '../../Config/firebaseConfig'
+import {FaHome} from "react-icons/fa";import { auth } from '../../Config/firebaseConfig'
 import {useAuthState} from 'react-firebase-hooks/auth'
+
 import {signOut} from 'firebase/auth'
 import {useNavigate} from 'react-router-dom'
 

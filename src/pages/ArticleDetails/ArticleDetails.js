@@ -5,6 +5,7 @@ import {db, auth} from '../../Config/firebaseConfig'
 //need some functions from firestore
 import {getDoc, doc} from 'firebase/firestore'
 import Likes from '../../components/Likes/Likes'
+import Comments from '../../components/Comments/Comments'
 
 function ArticleDetails() {
     //this page shows details about a specify article
@@ -49,6 +50,7 @@ function ArticleDetails() {
             <p className="article-description">{article?.paragraphTwo}</p>
             <p className="article-description">{article?.paragraphThree}</p>
         </div>
+        <Comments articleId={articleId} />
 
     </div>
   )
